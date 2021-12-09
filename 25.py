@@ -1,4 +1,6 @@
 import streamlit as st
 st.title("Skin Cancer Classfication ")
-st.header("Welcom To Web Page")
-st.subheader("LOL")
+file = st.file_uploader("Pick a file")
+pet = st.radio("Pick a pet", pets)
+date = st.date_input("Pick a date")
+number = st.slider("Pick a number", 0, 100)
