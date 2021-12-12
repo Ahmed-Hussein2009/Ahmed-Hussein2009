@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("Skin Cancer Classfication ")
 
-name = st.text_input("ID")
+ID = st.text_input("ID")
 name = st.text_input("Name")
 age = st.text_input(" Age")
 option = st.selectbox(
@@ -9,12 +9,12 @@ option = st.selectbox(
     ["Male","Female" ]
 )
 file = st.file_uploader("Upload Cancer photo")
-
+st.write
 # date = st.date_input("Pick a date")
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-image: url("https://prodigits.co.uk/thumbs/wallpapers/p2ls/patterns/49/6385a8d612611973.jpg");
 background-size: cover;
 }
 </style>
