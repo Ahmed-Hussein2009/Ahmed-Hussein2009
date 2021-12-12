@@ -6,7 +6,7 @@ form = st.form(key='my_form')
          
 ID = form.text_input("ID")
 name = form.text_input("Name")
-age = form.number_input(" Age")
+age = form.number_input(" Age",step=5)
 option = form.selectbox(
     "Select Gender",
     ["Male","Female" ]
