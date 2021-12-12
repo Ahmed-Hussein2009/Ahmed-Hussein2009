@@ -11,17 +11,14 @@ option = form.selectbox(
     "Select Gender",
     ["Male","Female" ]
 )
-form.image("1.png", caption='skin cancser photo',width=700)
+form.image("1.png", caption='skin cancser photo',width=650)
 file = form.file_uploader("Upload Cancer photo")
 # form.image("1.png", caption='Sunrise by the mountains')
 # form.text_input(label='Enter some text')
 
 submit_button = form.form_submit_button(label='Submit')
 
-from streamlit import SessionState
-
 import SessionState
-
 button1 = st.empty()
 text1 = st.empty()
 button2 = st.empty()
