@@ -9,7 +9,7 @@ option = st.selectbox(
     ["Male","Female" ]
 )
 file = st.file_uploader("Upload Cancer photo")
-st.write
+st.write(file)
 # date = st.date_input("Pick a date")
 page_bg_img = '''
 <style>
