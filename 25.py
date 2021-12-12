@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-st.title("Skin Cancer Classfication ")
+st.title("Skin Cancer Classfication ,"ASD")
 
 ID = st.text_input("ID")
 name = st.text_input("Name")
