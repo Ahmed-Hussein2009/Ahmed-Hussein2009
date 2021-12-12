@@ -1,11 +1,9 @@
 import streamlit as st
 st.title("Skin Cancer Classfication ")
-st.write("ID")
-name = st.text_input("ImageID")
-st.write("Name")
-name = st.text_input("")
-st.write("age")
-name = st.text_input("")
+
+name = st.text_input("ID")
+name = st.text_input("Name")
+age = st.text_input(" Age")
 st.write("Gender")
 option = st.selectbox(
     "Select Gender",
