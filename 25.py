@@ -17,9 +17,6 @@ file = form.file_uploader("Upload Cancer photo")
 # form.text_input(label='Enter some text')
 
 submit_button = form.form_submit_button(label='Submit')
-if st.button("Reset"):
-    pyautogui.hotkey("ctrl","F5")
-
 
 import SessionState  # Assuming SessionState.py lives on this folder
 
