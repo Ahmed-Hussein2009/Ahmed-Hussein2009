@@ -15,6 +15,7 @@ file = form.file_uploader("Upload Cancer photo")
 
 # form.text_input(label='Enter some text')
 submit_button = form.form_submit_button(label='Submit')
+st.image(file, caption='Sunrise by the mountains')
          
  
          
