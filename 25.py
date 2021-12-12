@@ -11,7 +11,7 @@ option = form.selectbox(
     "Select Gender",
     ["Male","Female" ]
 )
-form.image("1.png", caption='skin cancser photo',width=400)
+form.image("1.png", caption='skin cancser photo',width=700)
 file = form.file_uploader("Upload Cancer photo")
 # form.image("1.png", caption='Sunrise by the mountains')
 # form.text_input(label='Enter some text')
@@ -19,8 +19,15 @@ file = form.file_uploader("Upload Cancer photo")
 submit_button = form.form_submit_button(label='Submit')
 if st.button("Reset"):
     pyautogui.hotkey("ctrl","F5")
-# reset_button  = form.form_reset_button(label='Reset')
-# st.image("1.png", caption='skin cancser photo',width=700)
+
+
+import SessionState  # Assuming SessionState.py lives on this folder
+
+session = SessionState.get(run_id=0)
+if st.button("Reset"):
+  session.run_id += 1
+
+
          
  
          
