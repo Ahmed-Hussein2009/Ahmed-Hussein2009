@@ -14,6 +14,6 @@ st.write(file)
 # date = st.date_input("Pick a date")
 
 
-components.html("""<img src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg" alt="yoast seo" height="288" width="388"/>""")
+components.html("""<div style="background-image: url('img_girl.jpg');">""")
 
         
