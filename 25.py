@@ -20,10 +20,22 @@ submit_button = form.form_submit_button(label='Submit')
 
 from streamlit import SessionState
 
-session = SessionState.get(run_id=0)
-if st.button("Reset"):
-  session.run_id += 1
+import SessionState
 
+button1 = st.empty()
+text1 = st.empty()
+button2 = st.empty()
+text2 = st.empty()
+
+ss = SessionState.get(button1 = False)
+
+if button1.button('1') or ss.button2:
+    ss.button1 = True
+
+if ss.button1:
+    text1.write('you clicked the first button')
+    if button2.button('2'):
+        text2.write('you clicked the second button')
 
          
  
