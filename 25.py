@@ -19,5 +19,7 @@ body {
 }
 </style>""")
 components.html("""<div ">asd</div>""")
+color = st.color_picker('Pick A Color', '#00f900')
+st.write('The current color is', color)
 
         
