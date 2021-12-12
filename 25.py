@@ -18,7 +18,7 @@ file = form.file_uploader("Upload Cancer photo")
 
 submit_button = form.form_submit_button(label='Submit')
 
-import SessionState  # Assuming SessionState.py lives on this folder
+from streamlit import SessionState
 
 session = SessionState.get(run_id=0)
 if st.button("Reset"):
