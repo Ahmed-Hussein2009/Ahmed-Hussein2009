@@ -4,7 +4,6 @@ st.title("Skin Cancer Classfication ")
 name = st.text_input("ID")
 name = st.text_input("Name")
 age = st.text_input(" Age")
-st.write("Gender")
 option = st.selectbox(
     "Select Gender",
     ["Male","Female" ]
