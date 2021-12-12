@@ -14,10 +14,6 @@ st.write(file)
 # date = st.date_input("Pick a date")
 
 
-# components.html("""""")
-my_component = components.declare_component(
-  "my_component",
-  url="http://localhost:3001"
-)
-st.write(my_component)
+components.html("""<img src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg" alt="yoast seo" height="288" width="388"/>""")
+
         
