@@ -17,7 +17,9 @@ file = form.file_uploader("Upload Cancer photo")
 # form.text_input(label='Enter some text')
 
 submit_button = form.form_submit_button(label='Submit')
-reset_button  = form.form_reset_button(label='Reset')
+if st.button("Reset"):
+    pyautogui.hotkey("ctrl","F5")
+# reset_button  = form.form_reset_button(label='Reset')
 # st.image("1.png", caption='skin cancser photo',width=700)
          
  
