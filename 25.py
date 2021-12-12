@@ -19,4 +19,5 @@ my_component = components.declare_component(
   "my_component",
   url="http://localhost:3001"
 )
+st.write(my_component)
         
