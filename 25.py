@@ -3,8 +3,8 @@ st.title("Skin Cancer Classfication ")
 st.write("ID")
 your_name = st.text_input("Enter your name")
 option = st.selectbox(
-    "Select an Option",
-    ["Sentiment Analysis", ]
+    "Select Gender",
+    ["Male","Female" ]
 )
 file = st.file_uploader("Upload Cancer photo")
 
