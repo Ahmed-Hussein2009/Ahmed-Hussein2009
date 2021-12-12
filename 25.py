@@ -14,6 +14,6 @@ st.write(file)
 # date = st.date_input("Pick a date")
 
 
-components.html("""<div style="background-image: url('img_girl.jpg');">""")
+components.html("""<div style="background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--UIhCZbfu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/wobsu31ey0fr1bn91rq2.gif');">""")
 
         
