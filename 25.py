@@ -8,5 +8,8 @@ option = st.selectbox(
 )
 file = st.file_uploader("Upload Cancer photo")
 
-date = st.date_input("Pick a date")
-number = st.slider("Pick a number", 0, 100)
+# date = st.date_input("Pick a date")
+if st.button('Say hello'):
+     st.write('Why hello there')
+ else:
+     st.write('Goodbye')
