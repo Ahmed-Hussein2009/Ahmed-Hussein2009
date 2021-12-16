@@ -20,7 +20,7 @@ file = form.file_uploader("Upload Cancer photo")
 submit_button = form.form_submit_button(label='Submit')
 
 
-form.image("footer.png",width=650)   
+form.image("footer.png",width=1300,height=500)   
          
          
          
