@@ -24,7 +24,7 @@ placeholder = st.empty()
 input = form.text_input('text')
 click_clear = st.button('clear text input', key=1)
 if click_clear:
-    form.text_input('text', value='', key=1)
+    form.empty()
 
          
  
