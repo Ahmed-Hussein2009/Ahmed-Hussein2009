@@ -21,7 +21,7 @@ submit_button = form.form_submit_button(label='Submit')
 
 
 placeholder = st.empty()
-input = placeholder.text_input('text')
+input = form.text_input('text')
 click_clear = st.button('clear text input', key=1)
 if click_clear:
     input = form.text_input('text', value='', key=1)
