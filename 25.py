@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+
 st.title("Skin Cancer Classfication ")
 
 form = st.form(key='my_form')
@@ -17,11 +18,13 @@ file = form.file_uploader("Upload Cancer photo")
 # form.text_input(label='Enter some text')
 
 submit_button = form.form_submit_button(label='Submit')
-Reset = form.form_submit_button(label='ٌReset  ')
-if Reset:
-#     st.write(f'hello {name}')
-      form.value().reset()
+Reset = form.form_submit_button(label='ٌReset Form')
+placeholder = st.empty()
 
+input = placeholder.text_input('text')
+click_clear = st.button('clear text input', key=1)
+if click_clear:
+    input = placeholder.text_input('text', value='', key=1)
 
          
  
