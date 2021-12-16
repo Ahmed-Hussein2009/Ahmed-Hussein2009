@@ -3,20 +3,19 @@ import streamlit.components.v1 as components
 st.title("About us")
 st.image("about.png")
 st.image("footer.png",width=700)   
-def set_png_as_page_bg("1"):
-    bin_str = get_base64_of_bin_file2("1") 
+def set_background(png_file):
+    bin_str = get_base64(png_file)
     page_bg_img = '''
     <style>
-    .stApp {
+    body {
     background-image: url("data:image/png;base64,%s");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: scroll; # doesn't work
+    background-size: cover;
     }
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    return
+
+set_background('1.png')
 #width=650   
          
          
