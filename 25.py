@@ -17,7 +17,7 @@ file = form.file_uploader("Upload Cancer photo")
 # form.text_input(label='Enter some text')
 
 submit_button = form.form_submit_button(label='Submit')
-Reset = form.form_submit_button(label='ٌReset')
+Reset = form.form_submit_button(label='ٌReset  ')
 if Reset:
     st.write(f'hello {name}')
 
