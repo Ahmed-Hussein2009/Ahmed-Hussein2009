@@ -11,7 +11,7 @@ option = form.selectbox(
     "Select Gender",
     ["Male","Female" ]
 )
-form.image("1.png", caption='skin cancser photo',width=650)
+form.image("2.png", caption='skin cancser photo',width=650)
 file = form.file_uploader("Upload Cancer photo")
 # form.image("1.png", caption='Sunrise by the mountains')
 # form.text_input(label='Enter some text')
