@@ -53,7 +53,7 @@ body {
   
   display: flex;
   align-items: left;
-  justify-content: center;
+  justify-content: left;
   height: 140%;
   width: 150%;
 }
