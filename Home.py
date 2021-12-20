@@ -37,12 +37,4 @@ st.image("Home1.png",width=900)
 st.image("Home2.png",width=900)  
 st.image("Home3.png",width=900)  
 img4=st.image("Home4.png",width=900)  
-
-with st.form("key1"):
-   # ask
-for input
-button_check = st.form_submit_button("Explor Now")
-
-# do something to calculate.Will not run until button is clicked.
-
 st.image("footer.png",width=900)   
