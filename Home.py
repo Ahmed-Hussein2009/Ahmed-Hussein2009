@@ -38,7 +38,6 @@ A simple cryptocurrency price app pulling price data from *Binance API*.
 ''')
 
 # Load market data from Binance API
-df = pd.read_json('https://api.binance.com/api/v3/ticker/24hr')
 
 
 st.markdown("""
