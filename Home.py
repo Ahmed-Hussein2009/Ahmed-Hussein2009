@@ -452,25 +452,25 @@ figure {
 		<div id="item-2" class="control-operator"></div>
 		<div id="item-3" class="control-operator"></div>
 
-		<figure class="item">
-			<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
-		</figure>
+			<figure class="item">
+				<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
+			</figure>
 
-		<figure class="item">
-			<img src="http://placekitten.com/800/400" class="flexible" alt="" />
-		</figure>
+			<figure class="item">
+				<img src="http://placekitten.com/800/400" class="flexible" alt="" />
+			</figure>
 
-		<figure class="item">
-			<img src="http://unsplash.it/800/400" class="flexible" alt="" />
-		</figure>
+			<figure class="item">
+				<img src="http://unsplash.it/800/400" class="flexible" alt="" />
+			</figure>
 
-		<figure class="item">
-			<img src="http://placeimg.com/800/400" class="flexible" alt="" />
-		</figure>
+			<figure class="item">
+				<img src="http://placeimg.com/800/400" class="flexible" alt="" />
+			</figure>
 
-		<figure class="item">
-			<img src="http://placebeer.com/800/400" class="flexible" alt="" />
-		</figure>
+			<figure class="item">
+				<img src="http://placebeer.com/800/400" class="flexible" alt="" />
+			</figure>
 
 		<div class="controls">
 			<a href="#item-1" class="control-button">•</a>
