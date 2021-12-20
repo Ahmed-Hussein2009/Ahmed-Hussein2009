@@ -13,6 +13,9 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="https://youtube.com/dataprofessor" target="_blank">YouTube</a>
       </li>
