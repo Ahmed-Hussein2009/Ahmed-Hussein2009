@@ -45,442 +45,103 @@ st.markdown("""
 
 
 st.markdown("""
-<style>
 
-.gallery .control-operator:target ~ .controls .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
-}
+ <div class="container">
+        <div class="full-view"></div>
+        <div class="preview-list">
+            <ul>
+                <li>
+                    <input type="radio" id="tab-1" name="gallery-group">
+                    <label for="tab-1">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img
+                            src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-2" name="gallery-group">
+                    <label for="tab-2">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img
+                            src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-3" name="gallery-group">
+                    <label for="tab-3">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img
+                            src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-4" name="gallery-group" checked>
+                    <label for="tab-4">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/22427/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img src="https://images.pexels.com/photos/22427/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-5" name="gallery-group">
+                    <label for="tab-5">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                            <img src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-6" name="gallery-group">
+                    <label for="tab-6">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/355411/pexels-photo-355411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        </div>
+                    </label>
+                    <div class="content">
+                            <img src="https://images.pexels.com/photos/355411/pexels-photo-355411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-7" name="gallery-group">
+                    <label for="tab-7">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/1424246/pexels-photo-1424246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                            <img src="https://images.pexels.com/photos/1424246/pexels-photo-1424246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-.gallery .control-button:first-of-type, 
-.items-2 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
-.items-2 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
-.items-3 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
-.items-3 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
-.items-3 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), 
-.items-4 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
-.items-4 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
-.items-4 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), 
-.items-4 .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), 
-.items-5 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
-.items-5 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
-.items-5 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), 
-.items-5 .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), 
-.items-5 .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.gallery .item:first-of-type {
-  position: static;
-  opacity: 1;
-}
-.gallery .item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity .5s;
-}
-.gallery .control-operator {
-  display: none;
-}
-.gallery .control-operator:target ~ .item {
-  pointer-events: none;
-  opacity: 0;
-  animation: none;
-}
-.gallery .control-operator:target ~ .controls .control-button {
-  animation: none;
-}
-
-@keyframes controlAnimation-2 {
-  0% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-
-  14.3%,
-  50% {
-    color: white;
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  64.3%,
-  100% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-}
-
-@keyframes galleryAnimation-2 {
-  0% {
-    opacity: 0;
-  }
-
-  14.3%,
-  50% {
-    opacity: 1;
-  }
-
-  64.3%,
-  100% {
-    opacity: 0;
-  }
-}
-
-.items-2.autoplay .control-button {
-  animation: controlAnimation-2 14s infinite;
-}
-.items-2.autoplay .item {
-  animation: galleryAnimation-2 14s infinite;
-}
-.items-2 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-2 .control-button:nth-of-type(1),
-.items-2 .item:nth-of-type(1) {
-  animation-delay: -2s;
-}
-.items-2 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-2 .control-button:nth-of-type(2),
-.items-2 .item:nth-of-type(2) {
-  animation-delay: 5s;
-}
-
-@keyframes controlAnimation-3 {
-  0% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-
-  9.5%,
-  33.3% {
-    color: white;
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  42.9%,
-  100% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-}
-
-@keyframes galleryAnimation-3 {
-  0% {
-    opacity: 0;
-  }
-
-  9.5%,
-  33.3% {
-    opacity: 1;
-  }
-
-  42.9%,
-  100% {
-    opacity: 0;
-  }
-}
-
-.items-3.autoplay .control-button {
-  animation: controlAnimation-3 21s infinite;
-}
-.items-3.autoplay .item {
-  animation: galleryAnimation-3 21s infinite;
-}
-.items-3 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-3 .control-button:nth-of-type(1),
-.items-3 .item:nth-of-type(1) {
-  animation-delay: -2s;
-}
-.items-3 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-3 .control-button:nth-of-type(2),
-.items-3 .item:nth-of-type(2) {
-  animation-delay: 5s;
-}
-.items-3 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-3 .control-button:nth-of-type(3),
-.items-3 .item:nth-of-type(3) {
-  animation-delay: 12s;
-}
-
-@keyframes controlAnimation-4 {
-  0% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-
-  7.1%,
-  25% {
-    color: white;
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  32.1%,
-  100% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-}
-
-@keyframes galleryAnimation-4 {
-  0% {
-    opacity: 0;
-  }
-
-  7.1%,
-  25% {
-    opacity: 1;
-  }
-
-  32.1%,
-  100% {
-    opacity: 0;
-  }
-}
-
-.items-4.autoplay .control-button {
-  animation: controlAnimation-4 28s infinite;
-}
-.items-4.autoplay .item {
-  animation: galleryAnimation-4 28s infinite;
-}
-.items-4 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-4 .control-button:nth-of-type(1),
-.items-4 .item:nth-of-type(1) {
-  animation-delay: -2s;
-}
-.items-4 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-4 .control-button:nth-of-type(2),
-.items-4 .item:nth-of-type(2) {
-  animation-delay: 5s;
-}
-.items-4 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-4 .control-button:nth-of-type(3),
-.items-4 .item:nth-of-type(3) {
-  animation-delay: 12s;
-}
-.items-4 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-4 .control-button:nth-of-type(4),
-.items-4 .item:nth-of-type(4) {
-  animation-delay: 19s;
-}
-
-@keyframes controlAnimation-5 {
-  0% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-
-  5.7%,
-  20% {
-    color: white;
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  25.7%,
-  100% {
-    color: #ccc;
-    color: rgba(255, 255, 255, 0.4);
-  }
-}
-
-@keyframes galleryAnimation-5 {
-  0% {
-    opacity: 0;
-  }
-
-  5.7%,
-  20% {
-    opacity: 1;
-  }
-
-  25.7%,
-  100% {
-    opacity: 0;
-  }
-}
-
-.items-5.autoplay .control-button {
-  animation: controlAnimation-5 35s infinite;
-}
-.items-5.autoplay .item {
-  animation: galleryAnimation-5 35s infinite;
-}
-.items-5 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-5 .control-button:nth-of-type(1),
-.items-5 .item:nth-of-type(1) {
-  animation-delay: -2s;
-}
-.items-5 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-5 .control-button:nth-of-type(2),
-.items-5 .item:nth-of-type(2) {
-  animation-delay: 5s;
-}
-.items-5 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-5 .control-button:nth-of-type(3),
-.items-5 .item:nth-of-type(3) {
-  animation-delay: 12s;
-}
-.items-5 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-5 .control-button:nth-of-type(4),
-.items-5 .item:nth-of-type(4) {
-  animation-delay: 19s;
-}
-.items-5 .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
-  pointer-events: auto;
-  opacity: 1;
-}
-.items-5 .control-button:nth-of-type(5),
-.items-5 .item:nth-of-type(5) {
-  animation-delay: 26s;
-}
-
-/* ------------------- */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
-}
-
-/* ------------------- */
-figure {
-  margin: 1em 0;
-}
-
-.flexible {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-
-/* Nummern */
-.gallery {
-	counter-reset: numbers;
-}
-.item {
-	counter-increment: numbers;
-	position: relative;
-}
-.item:before {
-	content: counter(numbers);
-	background-color: #fff;
-	font-size: 24px;
-	border-radius: 50%;
-	padding:  5px 10px;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
-
-</style>
-<body>
-	<div class="gallery autoplay items-3">
-		<div id="item-1" class="control-operator"></div>
-		<div id="item-2" class="control-operator"></div>
-		<div id="item-3" class="control-operator"></div>
-
-		<figure class="item">
-			<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
-		</figure>
-
-		<figure class="item">
-			<img src="http://placekitten.com/800/400" class="flexible" alt="" />
-		</figure>
-
-		<figure class="item">
-			<img src="http://unsplash.it/800/400" class="flexible" alt="" />
-		</figure>
-
-		<figure class="item">
-			<img src="http://placeimg.com/800/400" class="flexible" alt="" />
-		</figure>
-
-		<figure class="item">
-			<img src="http://placebeer.com/800/400" class="flexible" alt="" />
-		</figure>
-
-		<div class="controls">
-			<a href="#item-1" class="control-button">•</a>
-			<a href="#item-2" class="control-button">•</a>
-			<a href="#item-3" class="control-button">•</a>
-			<a href="#item-4" class="control-button">•</a>
-			<a href="#item-5" class="control-button">•</a>
-		</div>
-	</div>
-</body> """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 st.title("Home")
 
