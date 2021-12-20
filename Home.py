@@ -54,7 +54,7 @@ st.markdown("""
 }
 
 .container {
-    width: 30vw;
+    width: 60vw;
     height: 100vh;
     display: grid;
     grid-template-rows: 5fr 1fr;
@@ -128,7 +128,7 @@ ul {
     top: 1vh;
     left: 0;
     width: 50vw;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -166,7 +166,7 @@ ul {
                     </label>
                     <div class="content">
                         <img <img width="1500" height="600"
-                            src="https:https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
