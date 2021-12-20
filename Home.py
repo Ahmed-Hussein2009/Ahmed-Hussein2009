@@ -158,7 +158,7 @@ a.slide__next,
   height: 15px;
   width: 15px;
   border-radius: 30%;
-  background-color: black;
+  background-color: #FF0200;
   margin: 0 5px 0 5px;
 }
 
