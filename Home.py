@@ -45,7 +45,7 @@ st.markdown("""
 
 
 st.markdown("""
-
+<style>
 
 .gallery .control-operator:target ~ .controls .control-button {
   color: #ccc;
@@ -444,7 +444,8 @@ figure {
 	top: 10px;
 	right: 10px;
 }
-<h1><a href="https://benschwarz.github.io/gallery-css/">Pure CSS-Gallery</a> by Ben Schwarz</h1>
+
+</style>
 <div class="gallery autoplay items-3">
 	<div id="item-1" class="control-operator"></div>
 	<div id="item-2" class="control-operator"></div>
