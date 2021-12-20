@@ -46,94 +46,38 @@ st.markdown("""
 
 st.markdown("""
 
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
-<body>
-
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+<a href="#img1">
+  <img class="thumb" src="thumb-1.jpg">
+</a>
+<!-- lightbox container hidden with CSS -->
+<div class="lightbox" id="img1">
+  <a href="#img3" class="light-btn btn-prev">prev</a>
+    <a href="#_" class="btn-close">X</a>
+    <img src="images/1.jpg">
+  <a href="#img2" class="light-btn btn-next">next</a>
 </div>
 
-<div class="w3-content w3-display-container" style="max-width:800px">
-  <img class="mySlides" src="Home1.png" style="width:100%">
-  <img class="mySlides" src="Home1.png" style="width:100%">
-  <img class="mySlides" src="Home1.png" style="width:100%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
+<a href="#img2">
+<img class="thumb" src="thumb-2.jpg">
+</a>
+<!-- lightbox container hidden with CSS -->
+<div class="lightbox" id="img2">
+  <a href="#img1" class="light-btn btn-prev">prev</a>
+    <a href="#_" class="btn-close">X</a>
+    <img src="2.jpg">
+  <a href="#img3" class="light-btn btn-next">next</a>
 </div>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
-</body>
-
-
-""", unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-st.markdown('''# **Skin Cancer Clssfication AI Program**''')
-
-# Load market data from Binance API
-
-
-st.markdown("""
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-""", unsafe_allow_html=True)
+<a href="#img3">
+<img class="thumb" src="thumb-3.jpg">
+</a>
+<!-- lightbox container hidden with CSS -->
+<div class="lightbox" id="img3">
+  <a href="#img2" class="light-btn btn-prev">prev</a>
+    <a href="#_" class="btn-close">X</a>
+    <img src="3.jpg">
+  <a href="#img1" class="light-btn btn-next">next</a>
+</div>""", unsafe_allow_html=True)
 
 st.title("Home")
 
