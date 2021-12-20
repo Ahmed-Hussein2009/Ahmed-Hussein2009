@@ -148,7 +148,7 @@ ul {
                     <label for="tab-1">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                                src="Home1.png" />
                         </div>
                     </label>
                     <div class="content">
