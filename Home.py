@@ -61,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 110%;
+  height: 130%;
   width: 130%;
 }
 
@@ -201,7 +201,7 @@ iframe[sandbox] .read-article{
   <div class="slider">
     <div class="slides">
       <div id="slides__1" class="slide">
-        <span class="slide__text"><img src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" /></span>
+        <span class="slide__text"><img width="1000" height="600" src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" /></span>
         <a class="slide__prev" href="#slides__3" title="Next"></a>
         <a class="slide__next" href="#slides__2" title="Next"></a>
       </div>
