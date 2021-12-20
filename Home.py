@@ -1,6 +1,6 @@
 
-"""
 import streamlit as st
+"""
 st.title("Home")
 st.image("Home1.png",width=900)  
 st.image("Home2.png",width=900)  
@@ -17,7 +17,7 @@ import streamlit as st
 import pickle as pkle
 import os.path
 
-pages = ['Page1','Page2','Page3']
+pages = ['Home','About','Page3']
 
 if os.path.isfile('next.p'):
     next_clicked = pkle.load(open('next.p', 'rb'))
@@ -31,7 +31,7 @@ if next:
     if next_clicked == len(pages):
         next_clicked = 0 
 
-choice = st.sidebar.radio("Pages",('Page1','Page2', 'Page3'), index=next_clicked)
+choice = st.sidebar.radio("Pages",('Home','about', 'Page3'), index=next_clicked)
 pkle.dump(pages.index(choice), open('next.p', 'wb'))
 
 if choice == 'Page1':
@@ -42,5 +42,4 @@ elif choice == 'Page3':
     st.title('Page 3')
 
 next = st.button('Go to next page')
-         
-        
+
