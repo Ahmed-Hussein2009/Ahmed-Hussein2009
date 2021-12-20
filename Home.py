@@ -52,7 +52,7 @@ body {
 .slider-container {
   
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   height: 140%;
   width: 150%;
@@ -222,8 +222,8 @@ iframe[sandbox] .read-article{
 
 st.title("Home")
 
-st.image("Home1.png",width=900)  
-st.image("Home2.png",width=900)  
-st.image("Home3.png",width=900)  
+# st.image("Home1.png",width=900)  
+# st.image("Home2.png",width=900)  
+# st.image("Home3.png",width=900)  
 img4=st.image("Home4.png",width=900)  
 st.image("footer.png",width=900)   
