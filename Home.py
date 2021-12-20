@@ -446,39 +446,41 @@ figure {
 }
 
 </style>
-<div class="gallery autoplay items-3">
-	<div id="item-1" class="control-operator"></div>
-	<div id="item-2" class="control-operator"></div>
-	<div id="item-3" class="control-operator"></div>
+<body>
+	<div class="gallery autoplay items-3">
+		<div id="item-1" class="control-operator"></div>
+		<div id="item-2" class="control-operator"></div>
+		<div id="item-3" class="control-operator"></div>
 
-	<figure class="item">
-		<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
-	</figure>
+		<figure class="item">
+			<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
+		</figure>
 
-	<figure class="item">
-		<img src="http://placekitten.com/800/400" class="flexible" alt="" />
-	</figure>
+		<figure class="item">
+			<img src="http://placekitten.com/800/400" class="flexible" alt="" />
+		</figure>
 
-	<figure class="item">
-		<img src="http://unsplash.it/800/400" class="flexible" alt="" />
-	</figure>
+		<figure class="item">
+			<img src="http://unsplash.it/800/400" class="flexible" alt="" />
+		</figure>
 
-	<figure class="item">
-		<img src="http://placeimg.com/800/400" class="flexible" alt="" />
-	</figure>
+		<figure class="item">
+			<img src="http://placeimg.com/800/400" class="flexible" alt="" />
+		</figure>
 
-	<figure class="item">
-		<img src="http://placebeer.com/800/400" class="flexible" alt="" />
-	</figure>
+		<figure class="item">
+			<img src="http://placebeer.com/800/400" class="flexible" alt="" />
+		</figure>
 
-	<div class="controls">
-		<a href="#item-1" class="control-button">•</a>
-		<a href="#item-2" class="control-button">•</a>
-		<a href="#item-3" class="control-button">•</a>
-		<a href="#item-4" class="control-button">•</a>
-		<a href="#item-5" class="control-button">•</a>
+		<div class="controls">
+			<a href="#item-1" class="control-button">•</a>
+			<a href="#item-2" class="control-button">•</a>
+			<a href="#item-3" class="control-button">•</a>
+			<a href="#item-4" class="control-button">•</a>
+			<a href="#item-5" class="control-button">•</a>
+		</div>
 	</div>
-</div>""", unsafe_allow_html=True)
+	</body> """, unsafe_allow_html=True)
 
 st.title("Home")
 
