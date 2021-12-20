@@ -56,9 +56,9 @@ st.markdown("""
 </div>
 
 <div class="w3-content" style="max-width:800px">
-  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+  <img class="mySlides" src="Home1.png" style="width:100%">
+  <img class="mySlides" src="Home2.png" style="width:100%">
+  <img class="mySlides" src="Home3.png" style="width:100%">
 </div>
 
 <div class="w3-center">
