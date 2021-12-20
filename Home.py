@@ -41,9 +41,6 @@ st.markdown("""
 
 
 
-
-
-
 st.markdown("""
 <style>
  html,
@@ -53,11 +50,7 @@ body {
 }
 
 .slider-container {
-  background: linear-gradient(
-    149deg,
-    rgb(247, 0, 255) 0%,
-    rgb(255, 145, 0) 100%
-  );
+  
   display: flex;
   align-items: center;
   justify-content: center;
