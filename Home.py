@@ -52,8 +52,8 @@ st.markdown("""
 
 st.title("Home")
 
-st.image("Home1.png",width=900)  
-st.image("Home2.png",width=900)  
-st.image("Home3.png",width=900)  
-img4=st.image("Home4.png",width=900)  
-st.image("footer.png",width=900)   
+st.image("Home1.png",width=1200)  
+st.image("Home2.png",width=1200)  
+st.image("Home3.png",width=1200)  
+img4=st.image("Home4.png",width=1200)  
+st.image("footer.png",width=1200)   
