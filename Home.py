@@ -135,8 +135,8 @@ ul {
 }
 
 .content img {
-    height: 100VW;
-    width: 100vw;  
+    height: 10;
+    width: 10;  
 }
  </style>
   <div class="container">
