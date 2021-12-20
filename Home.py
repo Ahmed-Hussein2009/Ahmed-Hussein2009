@@ -221,17 +221,13 @@ iframe[sandbox] .read-article{
       </div>
     </div>
     <div class="slider__nav">
-      <a class="slider__navlink" href="#slides__1"></a>
-      <a class="slider__navlink" href="#slides__2"></a>
-      <a class="slider__navlink" href="#slides__3"></a>
-      <a class="slider__navlink" href="#slides__4"></a>
+      <a class="slider__navlink" href="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png"></a>
+      <a class="slider__navlink" href="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png"></a>
+      <a class="slider__navlink" href="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png"></a>
     </div>
   </div>
 </div>
 
-<a href="https://alvarotrigo.com/fullPage/blog/create-a-slider-with-just-CSS/" target="_blank" class="read-article">
-  Read the article 👉
-</a>
 
 """, unsafe_allow_html=True)
 
