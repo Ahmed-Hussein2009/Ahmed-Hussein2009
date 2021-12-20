@@ -54,7 +54,7 @@ st.markdown("""
 }
 
 .container {
-    width: 100vw;
+    width: 45vw;
     height: 100vh;
     display: grid;
     grid-template-rows: 5fr 1fr;
@@ -148,12 +148,12 @@ ul {
                     <label for="tab-1">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                     </div>
                 </li>
                 <li>
@@ -161,12 +161,12 @@ ul {
                     <label for="tab-2">
                         <div class="tab">
                             <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                            src="https:https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                     </div>
                 </li>
                 <li>
@@ -174,12 +174,12 @@ ul {
                     <label for="tab-3">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                     </div>
                 </li>   
             </ul>
