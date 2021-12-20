@@ -55,14 +55,14 @@ body {
   align-items: left;
   justify-content: left;
   height: 140%;
-  width: 170%;
+  width: 180%;
 }
 
 .slider {
   width: 100%;
   max-width: 800px;
   height: 400px;
-  margin: 20px;
+  margin: 50px;
   text-align: center;
   border-radius: 20px;
   overflow: hidden;
