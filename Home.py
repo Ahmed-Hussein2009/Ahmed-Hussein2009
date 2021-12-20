@@ -49,7 +49,7 @@ st.markdown("""
  html,
 body {
   height: 100%;
-  height: 200%;
+  width: 200%;
   margin: 0px;
 }
 
