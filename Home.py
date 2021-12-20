@@ -6,7 +6,7 @@ start_color, end_color = st.select_slider(
      options=['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'],
      value=('red', 'blue'))
 st.write('You selected wavelengths between', start_color,)         
-st.image("Home4.png",width=900)      
+img4=st.image("Home4.png",width=900)      
          
          
         
