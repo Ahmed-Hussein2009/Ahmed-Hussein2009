@@ -49,7 +49,6 @@ st.markdown("""
  html,
 body {
   height: 100%;
-  width: 200%;
   margin: 0px;
 }
 
@@ -63,6 +62,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 200%;
 }
 
 .slider {
