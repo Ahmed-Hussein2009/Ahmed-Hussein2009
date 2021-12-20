@@ -127,7 +127,7 @@ ul {
     background: #021919;
     top: 1vh;
     left: 0;
-    width: 30vw;
+    width: 50vw;
     height: 80vh;
     overflow: hidden;
     display: flex;
