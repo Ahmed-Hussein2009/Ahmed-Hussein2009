@@ -83,8 +83,8 @@ ul {
 }
 
 .tab img {
-    width: 10vh;
-    height: 10vh;
+    width: 8vh;
+    height: 8vh;
     z-index: 10;
     cursor: pointer;
     clip-path: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
