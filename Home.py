@@ -46,15 +46,413 @@ st.markdown("""
 
 st.markdown("""
 
+
+.gallery .control-operator:target ~ .controls .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:first-of-type, 
+.items-2 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
+.items-2 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
+.items-3 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
+.items-3 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
+.items-3 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), 
+.items-4 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
+.items-4 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
+.items-4 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), 
+.items-4 .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), 
+.items-5 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), 
+.items-5 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), 
+.items-5 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), 
+.items-5 .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), 
+.items-5 .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery .item:first-of-type {
+  position: static;
+  opacity: 1;
+}
+.gallery .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.gallery .control-operator {
+  display: none;
+}
+.gallery .control-operator:target ~ .item {
+  pointer-events: none;
+  opacity: 0;
+  animation: none;
+}
+.gallery .control-operator:target ~ .controls .control-button {
+  animation: none;
+}
+
+@keyframes controlAnimation-2 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  14.3%,
+  50% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  64.3%,
+  100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes galleryAnimation-2 {
+  0% {
+    opacity: 0;
+  }
+
+  14.3%,
+  50% {
+    opacity: 1;
+  }
+
+  64.3%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.items-2.autoplay .control-button {
+  animation: controlAnimation-2 14s infinite;
+}
+.items-2.autoplay .item {
+  animation: galleryAnimation-2 14s infinite;
+}
+.items-2 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-2 .control-button:nth-of-type(1),
+.items-2 .item:nth-of-type(1) {
+  animation-delay: -2s;
+}
+.items-2 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-2 .control-button:nth-of-type(2),
+.items-2 .item:nth-of-type(2) {
+  animation-delay: 5s;
+}
+
+@keyframes controlAnimation-3 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  9.5%,
+  33.3% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  42.9%,
+  100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes galleryAnimation-3 {
+  0% {
+    opacity: 0;
+  }
+
+  9.5%,
+  33.3% {
+    opacity: 1;
+  }
+
+  42.9%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.items-3.autoplay .control-button {
+  animation: controlAnimation-3 21s infinite;
+}
+.items-3.autoplay .item {
+  animation: galleryAnimation-3 21s infinite;
+}
+.items-3 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-3 .control-button:nth-of-type(1),
+.items-3 .item:nth-of-type(1) {
+  animation-delay: -2s;
+}
+.items-3 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-3 .control-button:nth-of-type(2),
+.items-3 .item:nth-of-type(2) {
+  animation-delay: 5s;
+}
+.items-3 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-3 .control-button:nth-of-type(3),
+.items-3 .item:nth-of-type(3) {
+  animation-delay: 12s;
+}
+
+@keyframes controlAnimation-4 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  7.1%,
+  25% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  32.1%,
+  100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes galleryAnimation-4 {
+  0% {
+    opacity: 0;
+  }
+
+  7.1%,
+  25% {
+    opacity: 1;
+  }
+
+  32.1%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.items-4.autoplay .control-button {
+  animation: controlAnimation-4 28s infinite;
+}
+.items-4.autoplay .item {
+  animation: galleryAnimation-4 28s infinite;
+}
+.items-4 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-4 .control-button:nth-of-type(1),
+.items-4 .item:nth-of-type(1) {
+  animation-delay: -2s;
+}
+.items-4 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-4 .control-button:nth-of-type(2),
+.items-4 .item:nth-of-type(2) {
+  animation-delay: 5s;
+}
+.items-4 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-4 .control-button:nth-of-type(3),
+.items-4 .item:nth-of-type(3) {
+  animation-delay: 12s;
+}
+.items-4 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-4 .control-button:nth-of-type(4),
+.items-4 .item:nth-of-type(4) {
+  animation-delay: 19s;
+}
+
+@keyframes controlAnimation-5 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  5.7%,
+  20% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  25.7%,
+  100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes galleryAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+
+  5.7%,
+  20% {
+    opacity: 1;
+  }
+
+  25.7%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.items-5.autoplay .control-button {
+  animation: controlAnimation-5 35s infinite;
+}
+.items-5.autoplay .item {
+  animation: galleryAnimation-5 35s infinite;
+}
+.items-5 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(1),
+.items-5 .item:nth-of-type(1) {
+  animation-delay: -2s;
+}
+.items-5 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(2),
+.items-5 .item:nth-of-type(2) {
+  animation-delay: 5s;
+}
+.items-5 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(3),
+.items-5 .item:nth-of-type(3) {
+  animation-delay: 12s;
+}
+.items-5 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(4),
+.items-5 .item:nth-of-type(4) {
+  animation-delay: 19s;
+}
+.items-5 .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(5),
+.items-5 .item:nth-of-type(5) {
+  animation-delay: 26s;
+}
+
+/* ------------------- */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  background: #4d87e2;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+/* ------------------- */
+figure {
+  margin: 1em 0;
+}
+
+.flexible {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* Nummern */
+.gallery {
+	counter-reset: numbers;
+}
+.item {
+	counter-increment: numbers;
+	position: relative;
+}
+.item:before {
+	content: counter(numbers);
+	background-color: #fff;
+	font-size: 24px;
+	border-radius: 50%;
+	padding:  5px 10px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
 <h1><a href="https://benschwarz.github.io/gallery-css/">Pure CSS-Gallery</a> by Ben Schwarz</h1>
 <div class="gallery autoplay items-3">
 	<div id="item-1" class="control-operator"></div>
 	<div id="item-2" class="control-operator"></div>
 	<div id="item-3" class="control-operator"></div>
 
-	
-	<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
-	
+	<figure class="item">
+		<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
+	</figure>
 
 	<figure class="item">
 		<img src="http://placekitten.com/800/400" class="flexible" alt="" />
