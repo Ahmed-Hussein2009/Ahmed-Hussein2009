@@ -148,12 +148,12 @@ ul {
                     <label for="tab-1">
                         <div class="tab">
                             <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
-                        <img
-                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
+                        <img width="1500" height="600"
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
@@ -161,25 +161,25 @@ ul {
                     <label for="tab-2">
                         <div class="tab">
                             <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
-                        <img
-                            src="https:https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
+                        <img <img width="1500" height="600"
+                            src="https:https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
                     <input type="radio" id="tab-3" name="gallery-group">
                     <label for="tab-3">
                         <div class="tab">
-                            <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
+                            <img 
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
-                        <img width="1800" height="600"
-                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
+                        <img width="1500" height="600"
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>   
             </ul>
