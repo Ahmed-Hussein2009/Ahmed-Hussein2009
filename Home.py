@@ -26,7 +26,7 @@ st.markdown("""
         <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Tools <span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="https://share.streamlit.io/ahmed-hussein2009/ahmed-hussein2009/main/25.py">Tools <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link disabled" href="#">Solution <span class="sr-only">(current)</span></a>
