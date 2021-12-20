@@ -61,8 +61,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 200%;
+  height: 110%;
+  width: 150%;
 }
 
 .slider {
