@@ -1,17 +1,7 @@
 import streamlit as st
 st.title("Home")
-with st.form("my_form"):
-    st.write("Inside the form")
-    slider_val = st.slider("Form slider")
-    checkbox_val = st.checkbox("Form checkbox")
 
-    # Every form must have a submit button.
-    submitted = st.form_submit_button("Submit")
-    if submitted:
-        st.write("slider", slider_val, "checkbox", checkbox_val)
-
-st.write("Outside the form")
-         
+s1 = st.slider("slider 1", min_value=1, max_value=3, value=3)         
          
          
          
