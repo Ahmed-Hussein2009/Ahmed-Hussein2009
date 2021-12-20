@@ -148,12 +148,12 @@ ul {
                     <label for="tab-1">
                         <div class="tab">
                             <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                     </div>
                 </li>
                 <li>
@@ -161,12 +161,12 @@ ul {
                     <label for="tab-2">
                         <div class="tab">
                             <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https:https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                            src="https:https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                     </div>
                 </li>
                 <li>
@@ -174,12 +174,12 @@ ul {
                     <label for="tab-3">
                         <div class="tab">
                             <img
-                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                            src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                     </div>
                 </li>   
             </ul>
