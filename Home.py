@@ -55,7 +55,7 @@ body {
   align-items: left;
   justify-content: center;
   height: 140%;
-  width: 150%;
+  width: 170%;
 }
 
 .slider {
