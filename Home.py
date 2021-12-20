@@ -48,12 +48,8 @@ st.markdown("""
 <style>
 .mySlides {display:none}
 </style>
-<body>
 
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-</div>
+
 
 <div class="w3-content" style="max-width:800px">
   <img class="mySlides" src="Home1.png" style="width:100%">
@@ -100,7 +96,7 @@ function showDivs(n) {
 }
 </script>
 
-</body>
+
 """, unsafe_allow_html=True)
 
 
