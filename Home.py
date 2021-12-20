@@ -227,7 +227,7 @@ ul {
                         </div>
                     </label>
                     <div class="content">
-                            <img src="https://github.com/Ahmed-Hussein2009/Ahmed-Hussein2009/blob/e3b70557f50af56181968483b820f0910f79fca1/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            <img src="https://github.com/Ahmed-Hussein2009/Ahmed-Hussein2009/blob/e3b70557f50af56181968483b820f0910f79fca1/Home1.png" />
                         </div>
                 </li>
             </ul>
