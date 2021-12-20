@@ -17,7 +17,7 @@ import streamlit as st
 import pickle as pkle
 import os.path
 
-pages = ['Home','About','Page3']
+pages = ['Home','about','Page3']
 
 if os.path.isfile('next.p'):
     next_clicked = pkle.load(open('next.p', 'rb'))
