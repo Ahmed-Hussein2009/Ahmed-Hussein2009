@@ -55,7 +55,7 @@ st.markdown("""
 
 .container {
     width: 45vw;
-    height: 100vh;
+    height: 300vh;
     display: grid;
     grid-template-rows: 5fr 1fr;
     background: #021919;
@@ -70,7 +70,7 @@ ul {
 }
 
 .tab {
-    width: calc(10vh + 5px);
+    width: calc(10vh +8px);
     height: calc(10vh + 5px);
     position: relative;
     display: flex;
