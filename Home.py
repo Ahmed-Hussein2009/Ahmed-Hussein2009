@@ -70,8 +70,8 @@ ul {
 }
 
 .tab {
-    width: calc(10vh + 8px);
-    height: calc(10vh + 8px);
+    width: calc(10vh + 5px);
+    height: calc(10vh + 5px);
     position: relative;
     display: flex;
     align-items: center;
