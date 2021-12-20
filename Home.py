@@ -54,8 +54,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 180%;
-  width: 180%;
+  height: 120%;
+  width: 100%;
 }
 
 .slider {
