@@ -8,7 +8,7 @@ st.markdown("""
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="Flase" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div style="float:left;width:50%" class="collapse navbar-collapse" id="navbarNav" >
+  <div style="float:left;" class="collapse navbar-collapse" id="navbarNav" >
     <ul class="navbar-nav">style="float:left;width:50%"
       <li class="nav-item active">
         <a class="nav-link disabled" href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="sr-only">(current)</span></a>
