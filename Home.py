@@ -27,9 +27,7 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
-st.markdown('''# **Binance Price App**
-A simple cryptocurrency price app pulling price data from *Binance API*.
-''')
+st.markdown('''# **Skin Cancer Clssfication AI Program**''')
 
 # Load market data from Binance API
 
