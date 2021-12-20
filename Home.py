@@ -178,7 +178,7 @@ ul {
                         </div>
                     </label>
                     <div class="content">
-                        <img width="500" height="600"
+                        <img width="1300" height="600"
                             src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=500" />
                     </div>
                 </li>   
