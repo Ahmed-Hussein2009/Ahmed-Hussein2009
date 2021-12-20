@@ -22,12 +22,6 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link disabled" href="#">About <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://youtube.com/dataprofessor" target="_blank">YouTube</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://twitter.com/thedataprof" target="_blank">Twitter</a>
-      </li>
     </ul>
   </div>
 </nav>
