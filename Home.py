@@ -127,7 +127,7 @@ ul {
     background: #021919;
     top: 1vh;
     left: 0;
-    width: 50vw;
+    width: 30vw;
     height: 80vh;
     overflow: hidden;
     display: flex;
@@ -135,7 +135,7 @@ ul {
 }
 
 .content img {
-    height: auto;
+    height: 100VW;
     width: 100vw;  
 }
  </style>
