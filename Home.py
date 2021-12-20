@@ -181,8 +181,7 @@ ul {
                         <img
                             src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
-                </li>
-               
+                </li>   
             </ul>
         </div>
     </div>
