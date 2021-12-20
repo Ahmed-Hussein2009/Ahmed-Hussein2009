@@ -201,25 +201,25 @@ iframe[sandbox] .read-article{
   <div class="slider">
     <div class="slides">
       <div id="slides__1" class="slide">
-        <span class="slide__text"><img width="1000" height="600" src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" /></span>
+        <span class="slide__text"><img width="900" height="600" src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" /></span>
         <a class="slide__prev" href="#slides__3" title="Next"></a>
         <a class="slide__next" href="#slides__2" title="Next"></a>
       </div>
       <div id="slides__2" class="slide">
-        <span class="slide__text">2</span>
+        <span class="slide__text"><img width="900" height="600" src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" /></span>
         <a class="slide__prev" href="#slides__1" title="Prev"></a>
         <a class="slide__next" href="#slides__3" title="Next"></a>
       </div>
       <div id="slides__3" class="slide">
-        <span class="slide__text">3</span>
+        <span class="slide__text"><img width="900" height="600" src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" /></span>
         <a class="slide__prev" href="#slides__2" title="Prev"></a>
         <a class="slide__next" href="#slides__1" title="Next"></a>
       </div>
     </div>
     <div class="slider__nav">
-      <a class="slider__navlink" href="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home1.png"></a>
-      <a class="slider__navlink" href="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home2.png"></a>
-      <a class="slider__navlink" href="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/Home3.png"></a>
+      <a class="slider__navlink" href="#slides__1"></a>
+      <a class="slider__navlink" href="#slides__2"></a>
+      <a class="slider__navlink" href="#slides__3"></a>
     </div>
   </div>
 </div>
