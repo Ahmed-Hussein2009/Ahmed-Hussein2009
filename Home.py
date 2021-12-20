@@ -1,13 +1,16 @@
 import streamlit as st
-import streamlit.components.v1 as components
+st.title("Home")
+with st.form("my_form"):
+    st.write("Inside the form")
+    slider_val = st.slider("Form slider")
+    checkbox_val = st.checkbox("Form checkbox")
 
+    # Every form must have a submit button.
+    submitted = st.form_submit_button("Submit")
+    if submitted:
+        st.write("slider", slider_val, "checkbox", checkbox_val)
 
-st.title("About us")
-
-
-
-st.image("about.png")
-#width=650   
+st.write("Outside the form")
          
          
          
