@@ -153,7 +153,7 @@ ul {
                     </label>
                     <div class="content">
                         <img
-                            src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
@@ -161,12 +161,12 @@ ul {
                     <label for="tab-2">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                                src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
@@ -174,12 +174,12 @@ ul {
                     <label for="tab-3">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                                src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
                         <img
-                            src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
@@ -187,11 +187,11 @@ ul {
                     <label for="tab-4">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/22427/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                                src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
-                        <img src="https://images.pexels.com/photos/22427/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        <img src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                 </li>
                 <li>
@@ -199,11 +199,11 @@ ul {
                     <label for="tab-5">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                                src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                     </label>
                     <div class="content">
-                            <img src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            <img src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         </div>
                 </li>
                 <li>
@@ -211,11 +211,11 @@ ul {
                     <label for="tab-6">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/355411/pexels-photo-355411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                         </div>
                     </label>
                     <div class="content">
-                            <img src="https://images.pexels.com/photos/355411/pexels-photo-355411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                            <img src="Home1.png auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                         </div>
                 </li>
                 <li>
