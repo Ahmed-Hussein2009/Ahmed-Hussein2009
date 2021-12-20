@@ -66,7 +66,7 @@ body {
 
 .slider {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   height: 400px;
   margin: 20px;
   text-align: center;
