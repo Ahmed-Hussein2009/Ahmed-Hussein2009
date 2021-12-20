@@ -480,7 +480,7 @@ figure {
 			<a href="#item-5" class="control-button">•</a>
 		</div>
 	</div>
-	</body> """, unsafe_allow_html=True)
+</body> """, unsafe_allow_html=True)
 
 st.title("Home")
 
