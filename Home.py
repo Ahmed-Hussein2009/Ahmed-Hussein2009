@@ -52,9 +52,9 @@ st.markdown("""
 	<div id="item-2" class="control-operator"></div>
 	<div id="item-3" class="control-operator"></div>
 
-	<figure class="item">
-		<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
-	</figure>
+	
+	<img src="http://lorempixel.com/800/400" class="flexible" alt="" />
+	
 
 	<figure class="item">
 		<img src="http://placekitten.com/800/400" class="flexible" alt="" />
