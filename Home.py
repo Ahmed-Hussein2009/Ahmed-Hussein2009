@@ -52,7 +52,7 @@ st.markdown("""
 
 
 <div class="w3-content" style="max-width:800px">
-  <img class="mySlides" src="Home1.png" style="width:100%">
+  <img class="mySlides" src="https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg" style="width:100%">
   <img class="mySlides" src="Home2.png" style="width:100%">
   <img class="mySlides" src="Home3.png" style="width:100%">
 </div>
