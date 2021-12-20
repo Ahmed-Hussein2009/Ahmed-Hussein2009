@@ -53,7 +53,7 @@ st.markdown("""
 <div class="lightbox" id="img1">
   <a href="#img3" class="light-btn btn-prev">prev</a>
     <a href="#_" class="btn-close">X</a>
-    <img src="images/1.jpg">
+    <img src="Home1.png">
   <a href="#img2" class="light-btn btn-next">next</a>
 </div>
 
@@ -64,7 +64,7 @@ st.markdown("""
 <div class="lightbox" id="img2">
   <a href="#img1" class="light-btn btn-prev">prev</a>
     <a href="#_" class="btn-close">X</a>
-    <img src="2.jpg">
+    <img src="Home2.png">
   <a href="#img3" class="light-btn btn-next">next</a>
 </div>
 
@@ -75,7 +75,7 @@ st.markdown("""
 <div class="lightbox" id="img3">
   <a href="#img2" class="light-btn btn-prev">prev</a>
     <a href="#_" class="btn-close">X</a>
-    <img src="3.jpg">
+    <img src="Home3.png">
   <a href="#img1" class="light-btn btn-next">next</a>
 </div>""", unsafe_allow_html=True)
 
