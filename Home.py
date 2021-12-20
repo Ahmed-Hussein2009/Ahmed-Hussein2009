@@ -5,7 +5,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #000000;">
   <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Skin Cancer Classfication </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="Ture" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div style="float:right" class="collapse navbar-collapse" id="navbarNav" >
