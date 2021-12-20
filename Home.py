@@ -125,8 +125,8 @@ ul {
 .content {
     position: absolute;
     background: #021919;
-    top: -10vh;
-    left: 0;
+    top: -5vh;
+    left: -2;
     width: 50vw;
     height: 80vh;
     overflow: hidden;
