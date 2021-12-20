@@ -55,7 +55,7 @@ st.markdown("""
 
 .container {
     width: 45vw;
-    height: 300vh;
+    height: 50vh;
     display: grid;
     grid-template-rows: 5fr 1fr;
     background: #021919;
