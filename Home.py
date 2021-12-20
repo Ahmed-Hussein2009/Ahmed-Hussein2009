@@ -111,14 +111,14 @@ a.slide__prev,
 .slider::before {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
-  left: 5%;
+  left: 3%;
 }
 
 a.slide__next,
 .slider::after {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  right: 5%;
+  right: 3%;
 }
 
 .slider::before,
