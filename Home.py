@@ -125,10 +125,10 @@ ul {
 .content {
     position: absolute;
     background: #021919;
-    top: 0vh;
+    top: -10vh;
     left: 0;
     width: 50vw;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     align-items: center;
