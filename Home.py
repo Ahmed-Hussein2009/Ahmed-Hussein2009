@@ -32,7 +32,7 @@ st.markdown("""
         <a class="nav-link disabled" href="#">Solution <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link disabled" href="#">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="https://share.streamlit.io/ahmed-hussein2009/ahmed-hussein2009/main/about.py">About <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
