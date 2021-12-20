@@ -1,9 +1,13 @@
 import streamlit as st
 st.title("Home")
-img1=st.image("Home1.png",width=900)  
+st.image("Home1.png",width=900)  
+
+img1="Home1.png"
+img1="Home2.png"
+img1="Home3.png"
 start_color, end_color = st.select_slider(
-     'Select a range of color wavelength',
-     options=['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'],
+     'Gallary',
+     options=[img1,img2,img3],
      value=('red', 'blue'))
 st.write(img1)         
 img4=st.image("Home4.png",width=900)      
