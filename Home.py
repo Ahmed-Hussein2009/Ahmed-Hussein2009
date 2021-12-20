@@ -161,7 +161,7 @@ ul {
                     <label for="tab-2">
                         <div class="tab">
                             <img
-                                src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
+                                src="https://raw.githubusercontent.com/Ahmed-Hussein2009/Ahmed-Hussein2009/main/1.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=900" />
                         </div>
                     </label>
                     <div class="content">
