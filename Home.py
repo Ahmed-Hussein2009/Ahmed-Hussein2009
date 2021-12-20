@@ -47,7 +47,7 @@ st.markdown("""
 st.markdown("""
 
 <a href="#img1">
-  <img class="thumb" src="thumb-1.jpg">
+  <img class="thumb" src="Home1.png">
 </a>
 <!-- lightbox container hidden with CSS -->
 <div class="lightbox" id="img1">
@@ -58,7 +58,7 @@ st.markdown("""
 </div>
 
 <a href="#img2">
-<img class="thumb" src="thumb-2.jpg">
+<img class="thumb" src="Home2.png">
 </a>
 <!-- lightbox container hidden with CSS -->
 <div class="lightbox" id="img2">
@@ -69,7 +69,7 @@ st.markdown("""
 </div>
 
 <a href="#img3">
-<img class="thumb" src="thumb-3.jpg">
+<img class="thumb" src="Home3.png">
 </a>
 <!-- lightbox container hidden with CSS -->
 <div class="lightbox" id="img3">
